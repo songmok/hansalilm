@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/* font-style: itatlic */
 * {
   padding: 0;
   margin: 0;
@@ -21,7 +22,7 @@ img {
   vertical-align: middle;
 }
 body {
-  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans KR", "Roboto", sans-serif;
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0;
@@ -36,8 +37,85 @@ body {
   width: 100%;
   clear: both;
 }
+.container {
+  position: relative;
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+}
 /* 레이아웃 */
 .wrap {
   position: relative;
+  display: block;
+}
+/* 상단 */
+.header {
+  position: relative;
+  display: block;
+}
+.header-inner {
+  position: relative;
+  display: block;
+}
+/* 비주얼 */
+.visual {
+}
+.visual-inner {
+}
+/* 오늘의 상품 */
+.today {
+}
+.today-inner {
+}
+/* 알뜰 상품 */
+.sale {
+}
+.sale-inner {
+}
+/* 신상품 */
+.new {
+}
+.new-inner {
+}
+/* 추천 물품 */
+.recommend {
+}
+.recommend-inner {
+}
+/* 인기 물품 */
+.popular {
+}
+.popular-inner {
+}
+/* 브랜드관 */
+.brand {
+}
+.brand-inner {
+}
+/* 배너 */
+.banner {
+}
+.banner-inner {
+}
+/* 제철요리 */
+.season {
+}
+.season-inner {
+}
+/* 이용후기 */
+.review {
+}
+.review-inner {
+}
+/* 커뮤니티 */
+.community {
+}
+.community-inner {
+}
+/* 하단 */
+.footer {
+  position: relative;
+}
+.footer-inner {
   display: block;
 }
