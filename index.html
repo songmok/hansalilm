@@ -79,6 +79,14 @@
     <script src="js/prefixfree.min.js"></script>
     <!-- css초기화 -->
     <link rel="stylesheet" href="css/normalize.css" />
+    <!-- 폰트 어썸-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- main -->
     <link rel="stylesheet" href="css/main.css" />
   </head>
@@ -107,7 +115,7 @@
                 <li><a href="#">나의한살림</a></li>
                 <li>
                   <a href="#" class="center-more">조합원센터</a>
-                  <ul class="center-list">
+                  <ul class="center-list list">
                     <li><a href="#">상담/문의</a></li>
                     <li><a href="#">자주묻는질문</a></li>
                     <li><a href="#">이용후기</a></li>
@@ -121,57 +129,111 @@
               </ul>
             </div>
           </div>
-          <div class="header-main"></div>
-        </div>
-        <section class="visual">
-          <div class="visual-inner container"></div>
-        </section>
-        <!-- 오늘의 상품 -->
-        <section class="today">
-          <div class="today-inner container"></div>
-        </section>
-        <!-- 알뜰상품 -->
-        <section class="sale">
-          <div class="sale-inner container"></div>
-        </section>
-        <!-- 신상품 -->
-        <section class="new">
-          <div class="new-inner container"></div>
-        </section>
-        <!-- 추천 물품 -->
-        <section class="recommend">
-          <div class="recommend-inner container"></div>
-        </section>
-        <!-- 인기물품 -->
-        <section class="popular">
-          <div class="popular-inner container"></div>
-        </section>
-        <!-- 브랜드관 -->
-        <section class="brand">
-          <div class="brand-inner container"></div>
-        </section>
-        <!-- 배너 -->
-        <section class="banner">
-          <div class="banner-inner container">
-            <!-- 제철요리 -->
-            <section class="season">
-              <div class="season-inner container"></div>
-            </section>
-            <!-- 이용후기 -->
-            <section class="review">
-              <div class="review-inner container"></div>
-            </section>
-            <!-- 커뮤니티 -->
-            <section class="community">
-              <div class="community-inner container"></div>
-            </section>
+
+          <div class="header-main">
+            <div class="header-main-left">
+              <nav class="nav">
+                <ul class="gnb clearfix">
+                  <li>
+                    <button class="all-bt">
+                      <i class="fa-solid fa-bars"></i>
+                      전체보기
+                    </button>
+                  </li>
+                  <li><a href="#">추천</a></li>
+                  <li><a href="#">알뜰</a></li>
+                  <li><a href="#">새물품</a></li>
+                  <li><a href="#">사전예약</a></li>
+                  <li><a href="#" class="ball">영유아</a></li>
+                  <li><a href="#" class="ball">채식</a></li>
+                  <li>
+                    <button class="join-bt">
+                      참여<i class="join-bt-icon"></i>
+                    </button>
+                    <ul class="join-list list">
+                      <li><a href="#">신규물품제안</a></li>
+                      <li><a href="#">모임과행사</a></li>
+                      <li><a href="#">참여이벤트</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <div class="more-menu">
+                <button class="more-menu-bt">
+                  더보기 <i class="more-menu-icon"></i>
+                </button>
+                <ul class="more-menu-list list">
+                  <li><a href="#">한살림이야기</a></li>
+                  <li><a href="#">생산자와 물품</a></li>
+                  <li><a href="#">세상의 밥</a></li>
+                  <li><a href="#">요리</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="header-main-right clearfix">
+              <form action="" method="get" class="search-form">
+                <input
+                  type="text"
+                  class="search-txt"
+                  placeholder="무엇을 찾아드릴까요?"
+                />
+                <input type="submit" class="search-bt" />
+              </form>
+              <a href="#" class="bucket">
+                <span class="bucket-count">0</span>
+              </a>
+            </div>
           </div>
-        </section>
-        <!-- 푸터 -->
-        <footer class="footer">
-          <div class="footer-inner container"></div>
-        </footer>
+        </div>
       </header>
+      <section class="visual">
+        <div class="visual-inner container"></div>
+      </section>
+      <!-- 오늘의 상품 -->
+      <section class="today">
+        <div class="today-inner container"></div>
+      </section>
+      <!-- 알뜰상품 -->
+      <section class="sale">
+        <div class="sale-inner container"></div>
+      </section>
+      <!-- 신상품 -->
+      <section class="new">
+        <div class="new-inner container"></div>
+      </section>
+      <!-- 추천 물품 -->
+      <section class="recommend">
+        <div class="recommend-inner container"></div>
+      </section>
+      <!-- 인기물품 -->
+      <section class="popular">
+        <div class="popular-inner container"></div>
+      </section>
+      <!-- 브랜드관 -->
+      <section class="brand">
+        <div class="brand-inner container"></div>
+      </section>
+      <!-- 배너 -->
+      <section class="banner">
+        <div class="banner-inner container">
+          <!-- 제철요리 -->
+          <section class="season">
+            <div class="season-inner container"></div>
+          </section>
+          <!-- 이용후기 -->
+          <section class="review">
+            <div class="review-inner container"></div>
+          </section>
+          <!-- 커뮤니티 -->
+          <section class="community">
+            <div class="community-inner container"></div>
+          </section>
+        </div>
+      </section>
+      <!-- 푸터 -->
+      <footer class="footer">
+        <div class="footer-inner container"></div>
+      </footer>
     </div>
   </body>
 </html>
